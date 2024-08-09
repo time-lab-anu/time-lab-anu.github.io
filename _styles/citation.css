@@ -22,7 +22,7 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .citation-text {
@@ -61,7 +61,7 @@
 }
 
 .citation-publisher {
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .citation-description {
