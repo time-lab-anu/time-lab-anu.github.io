@@ -94,11 +94,6 @@ Our team comprises ANU honors and master’s students who are both passionate an
   content="26/09/2024: One paper has been accepted at NeurIPS D&B Track (25.3% acceptance rate). Congratulations to Liyun Zhu and Arjun Raj."
 %}
 
-{%
-  include alert.html
-  type="success"
-  content="26/09/2024: One paper has been accepted at Conference on Neural Information Processing Systems (NeurIPS) 2024. Congratulations to Liyun Zhu."
-%}
 
 {%
   include alert.html
