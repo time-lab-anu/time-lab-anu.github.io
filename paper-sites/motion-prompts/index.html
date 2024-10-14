@@ -31,6 +31,7 @@
     <meta name="keywords" content="motion prompt, attention, action recognition" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+
     <title>Motion meets Attention: Video Motion Prompts</title>
     <link rel="icon" type="image/x-icon" href="static/images/up.ico" />
     <link
@@ -173,53 +174,52 @@
     </section>
 
     <!-- continues frames -->
-    <hr style="border-top: 1px dashed #ff7300; margin-top: -5px; margin-bottom: 0px;">
-    <div class="container is-max-desktop">
-      <!-- <div class="header" style="position: absolute; text-align: left;">
-        <p style="font-weight: bold; font-size: large;">m & n Figures</p>
-      </div> -->
-      <iframe src="static/html/continues_frames.html" width="100%" height=250px style="align-items: center;"></iframe>
+    <hr style="border-top: 1px dashed #ff7300; margin-top: -0.1%; margin-bottom: 1%;">
+    <div class="continues_styled">
+      <iframe src="static/html/continues_frames.html" width="100%" height=100%></iframe>
     </div>
-    <hr style="border-top: 1px dashed #ff7300; margin-top: 5px;">
+    <hr style="border-top: 1px dashed #ff7300; margin-top: 0.1%;">
     <!-- continues frames end -->
 
     <!-- Paper abstract -->
     <section class="hero teaser">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">Abstract</h2>
-            <div class="content has-text-justified">
-              <p>
-                Videos contain rich spatio-temporal information. Traditional
-                methods for extracting motion, used in tasks such as action
-                recognition, often rely on visual contents rather than precise
-                motion features. This phenomenon is referred to as 'blind motion
-                extraction' behavior, which proves inefficient in capturing
-                motions of interest due to a lack of motion-guided cues.
-                <br /><br />Recently, attention mechanisms have enhanced many
-                computer vision tasks by effectively highlighting salient visual
-                areas. Inspired by this, we propose using a modified Sigmoid
-                function with learnable slope and shift parameters as an
-                attention mechanism to activate and modulate motion signals
-                derived from frame differencing maps. This approach generates a
-                sequence of attention maps that enhance the processing of
-                motion-related video content. To ensure temporally continuity
-                and smoothness of the attention maps, we apply pair-wise
-                temporal attention variation regularization to remove unwanted
-                motions (e.g., noise) while preserving important ones. We then
-                perform Hadamard product between each pair of attention maps and
-                the original video frames to highlight the evolving motions of
-                interest over time. These highlighted motions, termed video
-                motion prompts, are subsequently used as inputs to the model
-                instead of the original video frames. We formalize this process
-                as a motion prompt layer and incorporate the regularization term
-                into the loss function to learn better motion prompts.
-                <br /><br />This layer serves as an adapter between the model
-                and the video data, bridging the gap between traditional 'blind
-                motion extraction' and the extraction of relevant motions of
-                interest.
-              </p>
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+              <h2 class="title is-3">Abstract</h2>
+              <div class="content has-text-justified">
+                <p>
+                  Videos contain rich spatio-temporal information. Traditional
+                  methods for extracting motion, used in tasks such as action
+                  recognition, often rely on visual contents rather than precise
+                  motion features. This phenomenon is referred to as 'blind motion
+                  extraction' behavior, which proves inefficient in capturing
+                  motions of interest due to a lack of motion-guided cues.
+                  <br /><br />Recently, attention mechanisms have enhanced many
+                  computer vision tasks by effectively highlighting salient visual
+                  areas. Inspired by this, we propose using a modified Sigmoid
+                  function with learnable slope and shift parameters as an
+                  attention mechanism to activate and modulate motion signals
+                  derived from frame differencing maps. This approach generates a
+                  sequence of attention maps that enhance the processing of
+                  motion-related video content. To ensure temporally continuity
+                  and smoothness of the attention maps, we apply pair-wise
+                  temporal attention variation regularization to remove unwanted
+                  motions (e.g., noise) while preserving important ones. We then
+                  perform Hadamard product between each pair of attention maps and
+                  the original video frames to highlight the evolving motions of
+                  interest over time. These highlighted motions, termed video
+                  motion prompts, are subsequently used as inputs to the model
+                  instead of the original video frames. We formalize this process
+                  as a motion prompt layer and incorporate the regularization term
+                  into the loss function to learn better motion prompts.
+                  <br /><br />This layer serves as an adapter between the model
+                  and the video data, bridging the gap between traditional 'blind
+                  motion extraction' and the extraction of relevant motions of
+                  interest.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -227,7 +227,7 @@
     </section>
     <!-- End paper abstract -->
 
-    <hr style="border-top: 1px dashed #ff7300; margin-top: 35px; margin-bottom: -20px;">
+    <hr style="border-top: 1px dashed #ff7300; margin-top: -1%; margin-bottom: -2.1%;">
 
     <!-- pipelie figure  -->
     <section class="hero">
@@ -244,8 +244,9 @@
                 />
               </figure> 
               <div class="content has-text-justified">
-                <br>
-                <p>Overview of the motion prompt layer. Learnable Power Normalization (PN) function \( f(\cdot) \) modulates motion, influencing how motion is enhanced or dampened in each frame differencing map \( \mathbf{D} \) to highlight relevant movements. The resulting attention maps are multiplied element-wise (\(\odot\)) with the original video frame to produce video motion prompts. We introduce a temporal attention variation regularization term for smoother attention maps, ensuring better motion prompts. This layer can be inserted between the video input and backbones such as TimeSformer, serving as an adapter. Training involves optimizing both the motion prompt layer and the backbone network using a generic loss function, e.g., cross-entropy, along with the new regularization term.</p>
+                <p>
+                  Overview of the motion prompt layer. Learnable Power Normalization (PN) function \( f(\cdot) \) modulates motion, influencing how motion is enhanced or dampened in each frame differencing map \( \mathbf{D} \) to highlight relevant movements. The resulting attention maps are multiplied element-wise (\(\odot\)) with the original video frame to produce video motion prompts. We introduce a temporal attention variation regularization term for smoother attention maps, ensuring better motion prompts. This layer can be inserted between the video input and backbones such as TimeSformer, serving as an adapter. Training involves optimizing both the motion prompt layer and the backbone network using a generic loss function, e.g., cross-entropy, along with the new regularization term.
+                </p>
             </div>
           </div>
         </div>
@@ -254,34 +255,31 @@
     <hr style="border-top: 1px dashed #ff7300; margin-top: -5px; margin-bottom: 25px;">
 
     <!-- m&n figures -->
-    <div class="container is-max-desktop">
-      <p style="position: absolute; text-align: center; width: 100%; font-weight: bold; font-size: 26px;">
-        Learnable slope and shift
-      </p>
+    <div class="container is-max-desktop" style="margin-bottom: 5px;">
+      <h3 class="title" style="text-align: center;">Learnable slope and shift</h3>
     </div>
-    <iframe src="static/html/m&n_FineGym.html" width="100%" height=350px style="margin-top: 55px;"></iframe>
+    <iframe src="static/html/m&n_FineGym.html" width="100%" height=395px></iframe>
     <p style="text-align: right; font-size: small; color: #ff7300;">
       *Double-click the slider thumb to reset its value; drag the middle chart to rotate.
     </p>
     <hr style="border-top: 1px dashed #ff7300; margin-top: -1px;">
-    <iframe src="static/html/m&n_MPII.html" width="100%" height=350px" ></iframe>
+    <iframe src="static/html/m&n_MPII.html" width="100%" height=395px" ></iframe>
     <hr style="border-top: 1px dashed #ff7300;">
-    <iframe src="static/html/m&n_UCF.html" width="100%" height=350px></iframe>
+    <iframe src="static/html/m&n_UCF.html" width="100%" height=395px></iframe>
     <hr style="border-top: 1px dashed #ff7300;">
-    <iframe src="static/html/m&n_HMDB.html" width="100%" height=350px></iframe>
+    <iframe src="static/html/m&n_HMDB.html" width="100%" height=395px></iframe>
     <hr style="border-top: 1px dashed #ff7300; margin-bottom: 25px;">
     <!-- m & n figures end -->
 
-    <p style="position: absolute; text-align: center; width: 100%; font-weight: bold; font-size: 26px;">
-      Effects of temporal attention variation regularization
-    </p>
-    <iframe src="static/html/lambda_FineGym.html" width="100%" height=350px style="margin-top: 55px;"></iframe>
+    <div class="container is-max-desktop">
+      <h3 class="title" style="text-align: center;">Effects of temporal attention variation regularization</h3>
+    </div>
+    <iframe src="static/html/lambda_FineGym.html" width="100%" height=395px"></iframe>
     <hr style="border-top: 1px dashed #ff7300; margin-bottom: 25px;">
 
-    <p style="position: absolute; text-align: center; width: 100%; font-weight: bold; font-size: 26px;">
-    Comparison of PN functions on motion modulation in 3D
-    </p>
-    <div class="container is-max-desktop" style="margin-top: 80px;">
+    <div class="container is-max-desktop content">
+      <h3 class="title" style="text-align: center;">Comparison of PN functions on motion modulation in 3D</h3>
+    <!-- <div class="container is-max-desktop" style="margin-top: 80px;"> -->
       <img src="static/images/3d_PNs/supp_hmdb_run_3d_PNs.png" alt="3d_PNs_run" style="width: 100%; margin-top: 5px;">
       <div class="columns is-centered has-text-centered" style="margin-top: 0px;">
         (a) Action&nbsp;<span style="font-weight: bold;">run</span>&nbsp;from HMDB-51.
@@ -322,10 +320,12 @@
         (h) Action&nbsp;<span style="font-weight: bold;">fighting</span>&nbsp;from UCF-Crime.
       </div>
 
-      <div class="columns is-centered has-text-centered"">
-        <div class="column is-four-fifths">
-          <div class="content has-text-justified">
-            <p>We compare existing PN with our PN on motion modulation. The first two columns show consecutive video frames, and the third column displays 3D surface plots of the corresponding frame differencing maps. The 4th to 7th columns show output attentions in both attention maps and 3D surface plots for Gamma, MaxExp, SigmE, and AsinhE. The last column shows outputs from our PN function, which focuses on different motions across video types, such as human actions, fine-grained actions, static and moving cameras, and anomaly detection. For UCF-Crime, we use the learned slope and shift from MPII Cooking 2, as both are captured by static cameras.</p>
+      <div class="hero-body" style="margin-top: -5%;">
+        <div class="columns is-centered has-text-centered"">
+          <div class="column is-four-fifths">
+            <div class="content has-text-justified">
+              <p>We compare existing PN with our PN on motion modulation. The first two columns show consecutive video frames, and the third column displays 3D surface plots of the corresponding frame differencing maps. The 4th to 7th columns show output attentions in both attention maps and 3D surface plots for Gamma, MaxExp, SigmE, and AsinhE. The last column shows outputs from our PN function, which focuses on different motions across video types, such as human actions, fine-grained actions, static and moving cameras, and anomaly detection. For UCF-Crime, we use the learned slope and shift from MPII Cooking 2, as both are captured by static cameras.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -333,10 +333,8 @@
     
     <hr style="border-top: 1px dashed #ff7300; margin-bottom: 25px;">
 
-    <p style="position: absolute; text-align: center; width: 100%; font-weight: bold; font-size: 26px;">
-      Comparison of PN functions on motion modulation in 2D
-    </p>
-    <div class="container is-max-desktop" style="margin-top: 80px;">
+    <div class="container is-max-desktop content">
+      <h3 class="title" style="text-align: center;">Comparison of PN functions on motion modulation in 2D</h3>
       <img src="static/images/PNs/supp_hmdb_run_PNs.png" alt="PNs_run" style="width: 100%; margin-top: 5px;">
       <div class="columns is-centered has-text-centered" style="margin-top: 0px;">
         (a) Action&nbsp;<span style="font-weight: bold;">run</span>&nbsp;from HMDB-51.
@@ -377,10 +375,12 @@
         (h) Action&nbsp;<span style="font-weight: bold;">fighting</span>&nbsp;from UCF-Crime.
       </div>
 
-      <div class="columns is-centered has-text-centered"">
-        <div class="column is-four-fifths">
-          <div class="content has-text-justified">
-            <p>Visualizations include original consecutive frames (first two columns), frame differencing maps (third column), pairs of attention maps and motion prompts for Gamma, MaxExp, SigmE, and AsinhE (fourth to eleventh columns). The last two columns display our attention maps and motion prompts. Our attention maps (i) depict clear motion regions, (ii) highlight motions of interest and/or contextual environments relevant to the motions, and our motion prompts capture rich motion patterns. Existing PN functions only focus on motions, often capture noisy patterns and without emphasizing contexts.</p>
+      <div class="hero-body" style="margin-top: -5%;">
+        <div class="columns is-centered has-text-centered"">
+          <div class="column is-four-fifths">
+            <div class="content has-text-justified">
+              <p>Visualizations include original consecutive frames (first two columns), frame differencing maps (third column), pairs of attention maps and motion prompts for Gamma, MaxExp, SigmE, and AsinhE (fourth to eleventh columns). The last two columns display our attention maps and motion prompts. Our attention maps (i) depict clear motion regions, (ii) highlight motions of interest and/or contextual environments relevant to the motions, and our motion prompts capture rich motion patterns. Existing PN functions only focus on motions, often capture noisy patterns and without emphasizing contexts.</p>
+            </div>
           </div>
         </div>
       </div>
