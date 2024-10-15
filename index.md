@@ -90,6 +90,12 @@ Our team comprises ANU honors and master’s students who are both passionate an
 
 {%
   include alert.html
+  type="info"
+  content="15/10/2024: The TIME Lab is currently operating at full capacity and is not accepting new final-year research students at this time. The lab is actively supporting six students who are completing their final-year research projects. As such, we kindly request that no further inquiries regarding final-year research opportunities be made."
+%}
+
+{%
+  include alert.html
   type="success"
   content="26/09/2024: One paper has been accepted at NeurIPS D&B Track (25.3% acceptance rate). Congratulations to Liyun Zhu and Arjun Raj."
 %}
