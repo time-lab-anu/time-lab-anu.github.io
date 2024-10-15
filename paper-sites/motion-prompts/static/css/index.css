@@ -134,16 +134,9 @@ body {
   padding-bottom: 18px;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: row;
-  /* width: 100%; */
-  height: 340px;
-  /* background-color:rgba(255, 0, 85, 0.591); */
   background-color: white;
   margin: 0 auto;
-  /* box-shadow: 0 0 12px rgba(0, 0, 0, 0.637); */
-  /* background-color: ; */
-  border-radius: 12px;
 }
 
 .plot_1 {
@@ -153,6 +146,7 @@ body {
   text-align: center;
   margin-left: 10px;
   margin-right: 15px;
+  margin-top: 15%;
 }
 
 .controls {
@@ -180,6 +174,7 @@ body {
   height: 250px;
   margin-left: 25px;
   margin-right: 25px;
+  margin-top: 15%;
 }
 #output_frame {
   width: 350px;
@@ -188,12 +183,12 @@ body {
   display: flex;
   margin-left: 15px;
   margin-right: 35px;
+  margin-top: 5.4%;
   position: relative;
 }
 
 #output_frame > canvas {
   width: 100%;
-  /* height: 190px; */
 }
 
 #canvas_output {
@@ -205,24 +200,68 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  font-size: 14pt;
+}
+
+.continues_styled {
+  height: 240px;
 }
 
 .continues_demo {
-  width: 100%;
-  padding: 5px;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 0px;
 }
 
 .demo-image {
-  width: 24.8%; /* slightly less than one-fourth to accommodate margin */
-  height: auto;
+  width: 240px;
 }
 
 .slidecontainer {
-  width: 55%;
+  width: 35%;
 }
+
+@media only screen and (max-width: 920px){
+  .continues {
+    margin-bottom: -5px;
+    font-size: 14pt;
+  }
+  .continues_styled {
+    min-height: 65vw;
+  }
+  .continues_demo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }  
+  .demo-image {
+    width: 90%;
+  }
+  .slidecontainer {
+    margin-top: 5pt;
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  .continues_styled {
+    min-height: 70vw;
+  }
+}
+
+@media only screen and (max-width: 610px){
+  .continues_styled {
+    min-height: 75vw;
+  }
+}
+
+@media only screen and (max-width: 468px){
+  .continues {
+    margin-bottom: -5px;
+    font-size: 12pt;
+  }
+  .continues_styled {
+    min-height: 80vw;
+  }
+}
+
 
 .slider {
   -webkit-appearance: none;
