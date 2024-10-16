@@ -91,6 +91,12 @@ Our team comprises ANU honors and master’s students who are both passionate an
 {%
   include alert.html
   type="info"
+  content="16/10/2024: TIME Lab has officially approved a new logo design created by one of its own members, talented young designer and ANU master’s student, Gennie Nguyen."
+%}
+
+{%
+  include alert.html
+  type="info"
   content="15/10/2024: The TIME Lab is currently operating at full capacity and is not accepting new final-year research students at this time. The lab is actively supporting six students who are completing their final-year research projects. As such, we kindly request that no further inquiries regarding final-year research opportunities be made."
 %}
 
