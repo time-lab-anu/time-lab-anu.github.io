@@ -210,7 +210,7 @@
 
 # LEGO
 - id: doi:10.48550/arXiv.2410.01506
-  # image: images/paper/doi_10_1109_ICONAT53423.2022.9726079.png
+  image: images/paper/doi_10_48550_arXiv_2410_01506.png
   date: 2024-10-03
   status:
     - preprint
