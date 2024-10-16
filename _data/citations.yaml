@@ -337,6 +337,7 @@
   publisher: arXiv
   date: '2024-10-03'
   link: https://doi.org/g6s455
+  image: images/paper/doi_10_48550_arXiv_2410_01506.png
   status:
   - preprint
   plugin: sources.py
