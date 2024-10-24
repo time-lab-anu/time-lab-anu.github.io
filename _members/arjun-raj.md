@@ -1,6 +1,6 @@
 ---
 name: Arjun Raj
-image: images/team/arjun-raj-photo.jpg
+image: images/team/ar4152.jpg
 role: undergrad
 affiliation: Australian National University
 description: Undergraduate Student
@@ -15,7 +15,7 @@ links:
 
 I'm studying [Bachelor of Advanced Computing (R&D) (Honours)](https://programsandcourses.anu.edu.au/2023/program/aacrd) at the [Australian National University](https://www.anu.edu.au/)!
 
-I am currently a Research Student pursuing my academic research project under the supervision of Dr. Lei Wang. Alongside, I worked as a Research Intern at Active Intelligence Australia Pty Ltd, where I was honored with the 1st Annual Active Intelligence Research Challenge Award.
+As a CS researcher, I’m broadly interested in all aspects of machine learning, and particularly in computer vision, image/video analysis, deep learning and action recognition. Currently, I'm exploring ‘motion-centric’ topics under the supervision of [Dr. Lei Wang](https://leiwangr.github.io/). Additionally, I’m starting to serve as a Reviewer for conferences, beginning with [ICASSP](https://2025.ieeeicassp.org/).
 
 At TIME Lab, I explore the tracking and detection of small objects to improve precision in visual systems
 

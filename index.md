@@ -91,6 +91,12 @@ Our team comprises ANU honors and master’s students who are both passionate an
 {%
   include alert.html
   type="info"
+  content="24/10/2024: Four research students from TIME Lab, Dexuan Ding, Huilin Chen, Qixiang Chen, and Yifan Chen, have been recognized as Outstanding Reviewers, and Lab Lead Dr. Lei Wang has been named an Outstanding Area Chair at [ACM Multimedia 2024](https://2024.acmmm.org/outstanding-ac-reviewer)."
+%}
+
+{%
+  include alert.html
+  type="info"
   content="16/10/2024: TIME Lab has officially approved a new logo design created by one of its own members, talented young designer and ANU master’s student, Gennie Nguyen."
 %}
 
