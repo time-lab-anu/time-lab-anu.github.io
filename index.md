@@ -88,6 +88,15 @@ Our team comprises ANU honors and master’s students who are both passionate an
 
 ## News Updates
 
+
+{%
+  include alert.html
+  type="info"
+  content="12/11/2024: TIME Lab has featured in a [news article](https://cecc.anu.edu.au/news/2024/11/12/driven-by-curiosity-anu-young-innovators-at-time-lab/) published by the College of Engineering, Computing, and Cybernetics at the Australian National University (ANU)."
+%}
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7262293841326596097" height="500" width="98%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 {%
   include alert.html
   type="success"
