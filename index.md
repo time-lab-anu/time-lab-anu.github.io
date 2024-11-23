@@ -88,6 +88,11 @@ Our team comprises ANU honors and master’s students who are both passionate an
 
 ## News Updates
 
+{%
+  include alert.html
+  type="success"
+  content="21/11/2024: One workshop proposal entitled “TIME 2025: 1st International Workshop on Transformative Insights in Multi-faceted Evaluation” has been accepted at TheWebConf 2025 as a half-day workshop."
+%}
 
 {%
   include alert.html
