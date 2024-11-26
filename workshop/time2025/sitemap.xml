@@ -1,39 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://localhost:4000/workshop/time2025/blog/hello-world</loc>
-<lastmod>2014-07-21T08:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/workshop/time2025/blog/call-for-papers</loc>
-<lastmod>2014-07-21T09:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/workshop/time2025/blog/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/workshop/time2025/cod/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/workshop/time2025/hackathon/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/workshop/time2025/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/workshop/time2025/logistics/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/workshop/time2025/schedule/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/workshop/time2025/speakers/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/workshop/time2025/team/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/workshop/time2025/assets/GDG_DevFest_Partnership.pdf</loc>
-<lastmod>2024-11-25T14:31:41+00:00</lastmod>
-</url>
-</urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- replace WEBSITE with the address where this site is being hosted -->
+   <url>
+       <loc>WEBSITE</loc>
+   </url>
+   <url>
+       <loc>WEBSITE/registration</loc>
+   </url>
+   <url>
+       <loc>WEBSITE/program</loc>
+   </url>
+   <url>
+       <loc>WEBSITE/directions</loc>
+   </url>
+</urlset> 
+
