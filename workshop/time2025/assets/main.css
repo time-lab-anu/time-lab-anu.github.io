@@ -37,6 +37,13 @@ body{
     width: 1000px;
 }
 
+.container {
+    max-width: 1000px; /* Ensure content doesn't exceed page boundaries */
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
 a{color: #b8860b; text-decoration:none;}
 a.current{color: #52739e;}
 a.current:hover{color: #e82945;}
@@ -144,8 +151,8 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 /* My hacky way of making the site mobile-friendly */
 @media only screen and (max-width: 1100px) {
     h2{font-size:3.00em;}
-    p{font-size:1.2em; line-height:1.3em;}
-    th,td,tr{font-size:1.2em; line-height:1.3em;}
+    p{font-size:1.2em; line-height:1.2em;}
+    th,td,tr{font-size:1.35em; line-height:1.3em;}
     td.date{font-size:1em; padding-top:0.5em;}
     td.navigation{font-size:1.8em; padding:0px 20px 0px 20px;}
     table.footer{font-size:0.33em;}
@@ -163,19 +170,11 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     vertical-align: top;
 }
 
-.speakers-table tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
 .speakers-table img {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
-}
-
-.speakers-table td:first-child {
-    width: 160px;
 }
 
 .speakers-table strong {
@@ -272,7 +271,7 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 }
 
 .speakers-table p {
-    margin-top: 10px;
+    margin-top: 15px;
     color: #555;
 }
 
@@ -320,3 +319,37 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
         grid-template-columns: 1fr;
     }
 }
+
+
+.news-section {
+    max-width: 95%;
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  .news-item {
+    background-color: #ffffff; /* Card background for individual news items */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /* margin-bottom: 15px; */
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .news-item:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  }
+
+  .news-item-date {
+    font-size: 1.0em;
+    color: #555;
+    margin: 0 auto;
+  }
+
+  .news-item-title {
+    font-size: 1.0em;
+    color: #b8860b; /* Accent color for links */
+    /* font-weight: bold; */
+    margin: 0 auto;
+  }
