@@ -335,6 +335,7 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 }
 
 .news-item {
+    position: relative;
     background-color: #ffffff; /* Card background for individual news items */
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -347,8 +348,9 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 .news-date {
     font-size: 1.0em; 
     color: #52739e; 
-    margin: 7px 0 0 0;
-    display: block;
+    position: absolute; 
+    top: 5px; 
+    right: 5px; 
 }
 
 .news-content {
