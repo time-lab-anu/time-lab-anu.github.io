@@ -97,7 +97,7 @@ th,td{
     max-width: 150px; 
     max-height: 100px; 
     position: absolute; 
-    top: 20px; 
+    top: 150px; 
     left: 20px; 
     z-index: 10; 
 }
