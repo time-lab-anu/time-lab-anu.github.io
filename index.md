@@ -90,8 +90,14 @@ Our team comprises ANU honors and master’s students who are both passionate an
 
 {%
   include alert.html
+  type="info"
+  content="21/11/2024: One workshop proposal entitled “TIME 2025: 1st International Workshop on Transformative Insights in Multi-faceted Evaluation” has been accepted at The Web Conference (WWW 2025, A*) as a half-day workshop. Arjun Raj, Qixiang Chen, Xiuyuan (Jack) Yuan, and Xi Ding have been appointed as TIME 2025 Workshop Coordinators."
+%}
+
+{%
+  include alert.html
   type="success"
-  content="21/11/2024: One workshop proposal entitled “TIME 2025: 1st International Workshop on Transformative Insights in Multi-faceted Evaluation” has been accepted at TheWebConf 2025 as a half-day workshop."
+  content="21/11/2024: One workshop proposal entitled “TIME 2025: 1st International Workshop on Transformative Insights in Multi-faceted Evaluation” has been accepted at The Web Conference (WWW 2025, A*) as a half-day workshop. Arjun Raj, Qixiang Chen, Xiuyuan (Jack) Yuan, and Xi Ding have been appointed as TIME 2025 Workshop Coordinators."
 %}
 
 {%
