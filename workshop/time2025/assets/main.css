@@ -37,13 +37,6 @@ body{
     width: 1000px;
 }
 
-.container {
-    max-width: 1000px; /* Ensure content doesn't exceed page boundaries */
-    margin: 0 auto;
-    padding: 15px;
-    box-sizing: border-box;
-}
-
 a{color: #b8860b; text-decoration:none;}
 a.current{color: #52739e;}
 a.current:hover{color: #e82945;}
@@ -54,7 +47,7 @@ h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
-p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
+p{margin:1% auto 1% auto; padding:0px; width:90%; text-align:left;text-align: justify;}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
 ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
@@ -71,19 +64,20 @@ sub{
     line-height: 0;
 }
 table{
-    width: 1000px;
+    width: 100%;
     margin: 12px auto 24px auto;
     float: center;
+    font-size: inherit;
+    font-family: inherit;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
-    /*border: 1px solid black;*/
+    /* border: 1px solid black; */
 }
 th,td{
     text-align: left;
     /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
-    /*border: 1px solid black;*/
+    /* border: 1px solid black; */
 }
 
-/* Website Banner */
 /* Website Banner */
 .banner {
     position: relative;
@@ -101,25 +95,47 @@ th,td{
 
 /* Logo */
 .logo {
-    max-width: 100px; 
-    max-height: 120px; 
-    position: absolute; 
-    top: 113px; 
-    left: 20px; 
-    z-index: 10; 
+    max-width: 62px; 
+    max-height: auto;
+    position: relative; 
+    top: -92%;
+    left: 36%;
 }
 
-.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
-.bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
+.top-left {
+    font-size:5.33em;
+    color: #505050; 
+    background: #fafafa; 
+    text-align: center;
+    width: 100%; 
+    height: 100px; 
+    position: absolute; 
+    padding: 36px 0 0 0; 
+    top: 0px;
+}
+
+.bottom-right {
+    font-size:2.33em; 
+    color: #fafafa; 
+    line-height: 1.25em; 
+    width: auto; 
+    height: 64px; 
+    padding: 0px 16px 27px 0px; 
+    text-align: right; 
+    position: absolute; 
+    bottom: 0px; 
+    right: 0px; 
+    text-shadow: 0px 0px 6px #000000;
+}
 
 /* Conference Title Logo */
-.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0; font-size: 0.6em;} 
-.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0; font-size: 0.2em;}
+.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0; font-size: 0.5em;} 
+.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0; font-size: 0.25em;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
-table.navigation{width:800px;}
-td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+table.navigation{width:95%;}
+td.navigation{font-size:1.67em; white-space:nowrap; width:5%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 
 /* Sponsor Images */
 table.sponsors{width:800px;}
@@ -149,20 +165,18 @@ td.sponsor img{width: 100%}
 footer{font-size:0.875em; margin-top:12em; text-align:center;}
 
 /* My hacky way of making the site mobile-friendly */
-@media only screen and (max-width: 1100px) {
-    h2{font-size:3.00em;}
-    p{font-size:1.2em; line-height:1.2em;}
-    th,td,tr{font-size:1.35em; line-height:1.3em;}
-    td.date{font-size:1em; padding-top:0.5em;}
-    td.navigation{font-size:1.8em; padding:0px 20px 0px 20px;}
-    table.footer{font-size:0.33em;}
+@media only screen and (max-width: 1024px) {
+    h2{font-size:3.0em;}
+    h3.news-title{font-size:2.0em;}
+    p {font-size:1.2em;}
+    td.navigation{font-size:2em; padding:0px 20px 0px 20px;}
 }
 
 /* TABLE OF SPEAKERS*/
-
 .speakers-table {
-    width: 100%;
+    width: 95%;
     border-collapse: collapse;
+    margin-bottom: 30px;
 }
 
 .speakers-table td {
@@ -178,7 +192,12 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
 }
 
 .speakers-table strong {
-    font-size: 1.2em;
+    font-size: 1.5em;
+}
+
+.speakers-table p {
+    margin-top: 25px;
+    width: 100%;
 }
 
 /* Schedule */
@@ -237,43 +256,7 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     }
 }
 
-
-/* speakers table */
-.speakers-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 30px;
-}
-
-.speakers-table td {
-    padding: 15px;
-    vertical-align: top;
-}
-
-.speakers-table tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.speakers-table img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.speakers-table td:first-child {
-    width: 160px;
-}
-
-.speakers-table strong {
-    font-size: 1.2em;
-}
-
-.speakers-table p {
-    margin-top: 15px;
-    color: #555;
-}
-
+/* organizer */
 .organizers-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -344,25 +327,56 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
     }
 
 .news-date {
-    font-size: 1.0em; 
     color: #52739e; 
-    margin: 7px 0 0 0;
+    margin: 2px 0 2px 0;
     display: block;
 }
 
 .news-content {
-    font-size: 1em;
-    line-height: 1.6em;
+    line-height: 1.25em;
     color: #505050; 
     margin: 0;
+    width: 100%;
 }
 
 .news-item:hover {
 transform: translateY(-1px);
 box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-
 }
 
 .news-item:hover .news-title {
     color: #b2132e;
+}
+
+
+/* count down */
+.important-dates {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    width: 92%;
+    align-self: center;
+    margin: 0 auto;
+}
+.important-dates strong {
+    font-size: 1.2em;
+    color: #333;
+}
+.date-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+.date-row:last-child {
+    border-bottom: none;
+}
+.date-title {
+    flex: 1;
+}
+.date-countdown {
+    flex: 1;
+    text-align: right;
+    font-style: italic;
+    color: #555;
 }
