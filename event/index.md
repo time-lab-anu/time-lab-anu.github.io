@@ -9,6 +9,12 @@ nav:
 
 {%
   include button.html
+  link="event/#Workshop"
+  text="Workshop"
+%}
+
+{%
+  include button.html
   link="event/#seminar"
   text="Seminar"
 %}
@@ -25,6 +31,16 @@ nav:
   link="event/#activity"
   text="Activity"
 %}
+
+{%
+  include section.html
+%}
+
+## Workshop
+
+| Workshop         | Website Link       |
+| ------------- | -------------- |
+| 1st International Workshop on Transformative Insights in Multi-faceted Evaluation (TIME 2025) | [Click Here](../workshop/time2025/) |
 
 {%
   include section.html
