@@ -250,3 +250,8 @@
   status:
     - published
 
+# When Spatial meets Temporal in Action Recognition
+- id: doi:10.48550/arXiv.2411.15284
+  image: images/paper/doi_10_48550_arXiv_2411_15284.png
+  status:
+    - preprint
