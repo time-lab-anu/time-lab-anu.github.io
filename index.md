@@ -90,6 +90,12 @@ Our team comprises ANU honors and master’s students who are both passionate an
 
 {%
   include alert.html
+  type="success"
+  content="28/11/2024: Three Honours (Qixiang Chen, Huilin Chen, Dexuan Ding) and three Master's students (Liyun Zhu, Jushang Qiu, Liwen Luo) from TIME Lab completed their final-year research projects, achieving outstanding results with three High Distinctions (HD) and three Distinctions (D)."
+%}
+
+{%
+  include alert.html
   type="info"
   content="26/11/2024: Our workshop, “TIME 2025: 1st International Workshop on Transformative Insights in Multi-faceted Evaluation”, held at The Web Conference (WWW 2025, A*), is now open for [paper submissions](https://openreview.net/group?id=ACM.org/TheWebConf/2025/Workshop/TIME#tab-recent-activity). More details are available on our [TIME 2025 workshop page](https://time.anu.edu.au/workshop/time2025/)."
 %}
