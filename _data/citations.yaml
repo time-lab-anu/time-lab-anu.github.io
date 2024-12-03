@@ -343,11 +343,13 @@
   plugin: sources.py
   file: sources.yaml
 - id: arxiv:2405.10718
-  title: 'SignLLM: Sign Languages Production Large Language Models'
+  title: 'SignLLM: Sign Language Production Large Language Models'
   authors:
   - Sen Fang
   - Lei Wang
   - Ce Zheng
+  - Chunyu Sui
+  - Mingyu Zhao
   - Yapeng Tian
   - Chen Chen
   publisher: arXiv
