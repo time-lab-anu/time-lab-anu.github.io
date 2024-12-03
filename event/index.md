@@ -38,9 +38,9 @@ nav:
 
 ## Workshop
 
-| **Workshop Title**         | **Organizing Committee**       | **Workshop Overview** | **Conference Details** | 
-|-----------------------------|---------------------------------|------------------------|-------------------------|
-| **TIME 2025: 1st International Workshop on Transformative Insights in Multi-faceted Evaluation** [Homepage link](../workshop/time2025/) | Dr Lei Wang, Dr Md Zakir Hossain, Dr Syed Islam, Prof Tom Gedeon, Dr Sharifa Alghowinem, Ms Isabella Yu, Ms Serena Bono, Dr Xuanying Zhu, Ms Gennie Nguyen, Dr Nur Haldar, Prof Abdur Razzaque, Dr Imran Razzak, Prof Rafiqul Islam, Dr Shahadat Uddin, Dr Naeem Janjua and A/Prof Aneesh Krishna <br> **Coordinators**: Arjun Raj, Qixiang Chen, Xiuyuan (Jack) Yuan, and Xi Ding | This new workshop focuses on cross-domain knowledge exchange and adaptation, aiming to bridge successful methodologies across diverse fields. Additionally, it seeks to close the gap between academic research and industry needs. Our discussions will cover the past, present, and future directions of research in web technologies. | **The Web Conference 2025** <br> Sydney, Australia <br> 28 April - 2 May 2025 |
+| **Workshop Title**         | **Organizing Committee**       | **Workshop Coordinators**  | **Workshop Overview** | **Conference Details** | 
+|-----------------------------|---------------------------------|------------------------|-------------------------|-------------------------|
+| **TIME 2025: 1st International Workshop on Transformative Insights in Multi-faceted Evaluation** [Homepage link](../workshop/time2025/) | Dr Lei Wang, Dr Md Zakir Hossain, Dr Syed Islam, Prof Tom Gedeon, Dr Sharifa Alghowinem, Ms Isabella Yu, Ms Serena Bono, Dr Xuanying Zhu, Ms Gennie Nguyen, Dr Nur Haldar, Prof Abdur Razzaque, Dr Imran Razzak, Prof Rafiqul Islam, Dr Shahadat Uddin, Dr Naeem Janjua and A/Prof Aneesh Krishna | Arjun Raj, Qixiang Chen, Xiuyuan (Jack) Yuan, and Xi Ding | This new workshop focuses on cross-domain knowledge exchange and adaptation, aiming to bridge successful methodologies across diverse fields. Additionally, it seeks to close the gap between academic research and industry needs. Our discussions will cover the past, present, and future directions of research in web technologies. | **The Web Conference 2025** <br> Sydney, Australia <br> 28 April - 2 May 2025 |
 
 
 {%

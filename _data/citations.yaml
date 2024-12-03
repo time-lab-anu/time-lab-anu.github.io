@@ -410,3 +410,19 @@
   - published
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.48550/arXiv.2411.15284
+  title: When Spatial meets Temporal in Action Recognition
+  authors:
+  - Huilin Chen
+  - Lei Wang
+  - Yifan Chen
+  - Tom Gedeon
+  - Piotr Koniusz
+  publisher: arXiv
+  date: '2024-11-22'
+  link: https://doi.org/g8sfpg
+  image: images/paper/doi_10_48550_arXiv_2411_15284.png
+  status:
+  - preprint
+  plugin: sources.py
+  file: sources.yaml
