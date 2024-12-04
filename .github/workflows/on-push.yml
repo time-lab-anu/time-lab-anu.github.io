@@ -19,6 +19,9 @@ jobs:
     if: github.run_number != 1
     uses: ./.github/workflows/update-citations.yaml
 
+  make-paper-thumbnail:
+    uses: ./.github/workflows/make-paper-thumbnail.yaml
+
   build-site:
-    needs: update-citations
+    needs: [update-citations, make-paper-thumbnail]
     uses: ./.github/workflows/build-site.yaml
