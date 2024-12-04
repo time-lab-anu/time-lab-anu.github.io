@@ -55,7 +55,7 @@ def process_images(directory, template_image_path, output_directory, max_size=98
 
 if __name__ == "__main__":
     image_directory = "images/paper"
-    template_image_path = "./template_box.png"
+    template_image_path = "./.github/scripts/paper_thumbnail/main.py/template_box.png"
     output_directory = "images/paper"
     max_dimension = 980
 
