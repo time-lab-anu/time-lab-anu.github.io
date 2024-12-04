@@ -423,7 +423,7 @@
   publisher: arXiv
   date: '2024-11-22'
   link: https://doi.org/g8sfpg
-  image: images/paper/doi_10_48550_arXiv_2411_15284.png
+  image: images/paper/doi_10_48550_arxiv_2411_15284.png
   status:
   - preprint
   plugin: sources.py
