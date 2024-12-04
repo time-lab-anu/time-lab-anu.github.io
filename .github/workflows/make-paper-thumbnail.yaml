@@ -22,3 +22,27 @@ jobs:
 
       - name: Run Python script
         run: python ./.github/scripts/paper_thumbnail/main.py
+
+      - name: Check if images changed
+        id: changed
+        uses: tj-actions/verify-changed-files@v18
+        with:
+          files: |
+            images/paper/*
+
+      - name: Commit updated paper thumbnails to branch
+        if: |
+          steps.changed.outputs.files_changed == 'true' &&
+          inputs.open-pr != true
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update paper thumbnails"
+
+      - name: Open pull request with updated paper thumbnails
+        if: |
+          steps.changed.outputs.files_changed == 'true' &&
+          inputs.open-pr == true
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: thumbnail-update
+          title: Periodic thumbnail update
