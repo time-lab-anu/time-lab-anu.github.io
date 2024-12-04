@@ -71,7 +71,7 @@ if __name__ == "__main__":
     image_directory = "images/paper"
     template_image_path = ".github/scripts/paper_thumbnail/template_box.png"
     output_directory = "images/paper"
-    reference_file = "_data/types.yaml"
+    reference_file = "_data/sources.yaml"
     max_dimension = 980
 
     process_images(image_directory, template_image_path, output_directory, reference_file, max_dimension)

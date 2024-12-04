@@ -37,6 +37,12 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
 
+      - name: Pull latest changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin ${{ github.head_ref }}
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:

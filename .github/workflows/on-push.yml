@@ -14,13 +14,14 @@ permissions:
   pull-requests: write
 
 jobs:
+  make-paper-thumbnail:
+    uses: ./.github/workflows/make-paper-thumbnail.yaml
+
   update-citations:
     # skip first run because nothing enabled or setup yet
     if: github.run_number != 1
+    needs: make-paper-thumbnail
     uses: ./.github/workflows/update-citations.yaml
-
-  make-paper-thumbnail:
-    uses: ./.github/workflows/make-paper-thumbnail.yaml
 
   build-site:
     needs: [update-citations, make-paper-thumbnail]
