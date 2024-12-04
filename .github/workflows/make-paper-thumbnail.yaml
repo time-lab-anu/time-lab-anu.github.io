@@ -36,7 +36,7 @@ jobs:
           inputs.open-pr != true
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "update paper thumbnails"
+          commit_message: "Update paper thumbnails"
 
       - name: Open pull request with updated paper thumbnails
         if: |
