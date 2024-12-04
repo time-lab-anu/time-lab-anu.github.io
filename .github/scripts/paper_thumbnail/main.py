@@ -45,6 +45,7 @@ def process_images(directory, template_image_path, output_directory, max_size=98
     # Iterate through all files in the directory
     for file_name in os.listdir(directory):
         if file_name.lower().rsplit('.', 1)[0].endswith("_unboxed"):
+            print(f"Processing {file_name}.")
             image_path = os.path.join(directory, file_name)
             output_path = os.path.join(output_directory, f"{file_name.lower().rsplit('.', 1)[0]}.png")
             resize_and_center_image(image_path, template_image_path, output_path, max_size)

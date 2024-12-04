@@ -1,0 +1,24 @@
+name: paper-thumbnail-maker
+
+on:
+  workflow_call:
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade --requirement ./.github/scripts/paper_thumbnail/requirements.txt
+
+      - name: Run Python script
+        run: python ./.github/scripts/paper_thumbnail/main.py
