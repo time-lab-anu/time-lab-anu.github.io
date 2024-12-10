@@ -90,6 +90,12 @@ Our team comprises ANU honors and master’s students who are both passionate an
 
 {%
   include alert.html
+  type="info"
+  content="10/12/2024: Starting in 2025, Dr. Lei Wang (lab lead) will not be available to serve as the primary supervisor for any new ANU undergraduate, honors, or master's research students."
+%}
+
+{%
+  include alert.html
   type="success"
   content="28/11/2024: Three Honours (Qixiang Chen, Huilin Chen, Dexuan Ding) and three Master's students (Liyun Zhu, Jushang Qiu, Liwen Luo) from TIME Lab completed their final-year research projects, achieving outstanding results with three High Distinctions (HD) and three Distinctions (D)."
 %}
