@@ -348,19 +348,7 @@ box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
     color: #b2132e;
 }
 
-
 /* count down */
-.important-dates {
-    font-family: Arial, sans-serif;
-    line-height: 1.8;
-    width: 92%;
-    align-self: center;
-    margin: 0 auto;
-}
-.important-dates strong {
-    font-size: 1.2em;
-    color: #333;
-}
 .date-row {
     display: flex;
     justify-content: space-between;
@@ -368,15 +356,34 @@ box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
     padding: 8px;
     border-bottom: 1px solid #ccc;
 }
+
+
+
 .date-row:last-child {
     border-bottom: none;
 }
+
 .date-title {
-    flex: 1;
+    flex: 2; 
+    display: flex;
+    align-items: center;
 }
+
 .date-countdown {
-    flex: 1;
+    flex: 1; 
     text-align: right;
     font-style: italic;
     color: #555;
+    white-space: nowrap; 
+}
+
+.original-date {
+    color: solid#ccc;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    margin-right: 5px; 
+}
+
+.updated-date {
+    color: red; 
 }

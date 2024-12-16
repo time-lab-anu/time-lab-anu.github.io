@@ -57,19 +57,26 @@
     <h2>Important Dates</h2>
     <div class="important-dates">
         <div class="date-row">
-            <span class="date-title"><strong>Paper Submission Deadline</strong>: 18 December, 2024</span>
+            <span class="date-title"><strong>Paper Submission Deadline</strong>: &nbsp;
+                <span class="original-date"> 18 February, 2024</span>
+                <span class="updated-date"> 5 January, 2025 (Extended)</span>
             <span class="date-countdown" id="countdown-submission"></span>
         </div>
         <div class="date-row">
-            <span class="date-title"><strong>Acceptance Notification</strong>: 13 January, 2025</span>
+            <span class="date-title"><strong>Acceptance Notification</strong>: &nbsp;
+                <span class="original-date"> 13 January, 2025</span>
+                <span class="updated-date"> 27 January, 2025 (Extended)</span>
             <span class="date-countdown" id="countdown-notification"></span>
         </div>
         <div class="date-row">
-            <span class="date-title"><strong>Camera-ready Deadline</strong>: 2 February, 2025</span>
+            <span class="date-title"><strong>Camera-ready Deadline</strong>: &nbsp;
+                <span class="original-date"> 2 February, 2025</span> 
+                <span class="updated-date"> 7 February, 2025 (Extended)</span>
+                
             <span class="date-countdown" id="countdown-camera-ready"></span>
         </div>
         <div class="date-row">
-            <span class="date-title"><strong>Workshop Date</strong>: 28 April - 2 May, 2025</span>
+            <span class="date-title"><strong>Workshop Date</strong>:&nbsp;28 April - 2 May, 2025</span>
             <span class="date-countdown" id="countdown-workshop"></span>
         </div>
     </div>
@@ -107,9 +114,9 @@
         function startCountdowns() {
             setInterval(() => {
                 // Adjust dates for AoE (UTC-12)
-                updateCountdown("2024-12-19T11:59:59Z", "countdown-submission");
-                updateCountdown("2025-01-14T11:59:59Z", "countdown-notification");
-                updateCountdown("2025-02-03T11:59:59Z", "countdown-camera-ready");
+                updateCountdown("2025-01-02T11:59:59Z", "countdown-submission");
+                updateCountdown("2025-01-28T11:59:59Z", "countdown-notification");
+                updateCountdown("2025-02-08T11:59:59Z", "countdown-camera-ready");
                 updateCountdown("2025-04-29T11:59:59Z", "countdown-workshop");
             }, 1000);
         }
