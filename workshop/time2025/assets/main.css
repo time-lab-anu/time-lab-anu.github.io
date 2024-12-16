@@ -361,6 +361,10 @@ box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
     font-size: 1.2em;
     color: #333;
 }
+.specific-date {
+    color: red;
+    font-weight: bold; 
+}
 .date-row {
     display: flex;
     justify-content: space-between;
