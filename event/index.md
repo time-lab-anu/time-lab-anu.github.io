@@ -28,8 +28,15 @@ nav:
 
 {%
   include button.html
+  link="event/#time-medal"
+  text="TIME Medal"
+%}
+
+{%
+  include button.html
   link="event/#activity"
   text="Activity"
+  flip=true
 %}
 
 {%
@@ -69,7 +76,15 @@ nav:
 | TIME Lab Retreat       | TIME Lab       | A full-day retreat featuring presentations, discussions, and collaborative sessions on advanced computing, video modeling, and motion analysis.  | 10 Aug 2024    | [Schedule](retreat/10_08_2024) |
 
 
+{% include section.html %}
 
+## TIME Medal
+
+Each year, the TIME Medal celebrates students who embody the core values of excellence, resilience, and meaningful contributions to both the lab and the broader community.
+
+| **Year**      | **Winner(s)**            | **Candidates**                                                                | **Award Date**       | **More Info**       |
+|---------------|--------------------------|--------------------------------------------------------------------------------|-----------------------|---------------------|
+| TIME Medal 2024 | TBD                     | Qixiang Chen, Liyun Zhu, Huilin Chen, Dexuan Ding, Jushang Qiu, and Liwen Luo | TBD                   | [Details](/medal/2024) |
 
 
 {% include section.html %}
