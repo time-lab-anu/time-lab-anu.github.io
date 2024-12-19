@@ -56,7 +56,9 @@ In this spirit, the TIME Lab is thrilled to announce the launch of its prestigio
 
 Six exceptional students, who've completed their final year, 24-unit research projects under TIME Lab supervision, are in contention. Each of these candidates - Qixiang Chen, Liyun Zhu, Huilin Chen, Dexuan Ding, Jushang Qiu, and Liwen Luo - has demonstrated remarkable dedication to their academic pursuits and personal growth, making them strong contenders.
 
-The winner will gain access to a range of opportunities to elevate their academic and professional growth. These opportunities span from workshop registrations and attendance (e.g., TIME 2025 at WWW), to internships and PhD scholarships (3.5 to 4 years). We look forward to celebrating the exceptional individual who will carry forward this legacy of excellence.
+The winner will gain access to a range of opportunities to enhance their academic and professional growth. These opportunities include workshop registrations and attendance (e.g., TIME 2025 workshop at WWW’25), internships (TIME Lab industry partners), PhD scholarships, and top-up scholarships (covering 3.5 to 4 years, paid through the candidate's university, e.g., ANU and UNSW). We look forward to celebrating the exceptional individual who will continue this legacy of excellence.
+
+*Note that TIME Lab 2024 Medals are set on a merit basis and are not awarded based on a quota.*
 
 {%
   include section.html
