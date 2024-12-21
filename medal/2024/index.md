@@ -1,26 +1,26 @@
 ---
-title: TIME Medal 2024
+title: TIME Lab Medal 2024
 ---
 
-# {% include icon.html %}TIME Medal 2024
+# {% include icon.html %}TIME Lab Medal 2024
 
 
 {%
   include button.html
   link="medal/2024/#about-the-medal"
-  text="About the Medal"
+  text="About"
 %}
 
 {%
   include button.html
   link="medal/2024/#understanding-the-process"
-  text="Understanding the Process"
+  text="Process"
 %}
 
 {%
   include button.html
   link="medal/2024/#submission-requirements-deadline-5th-january-2025"
-  text="Submission Requirements"
+  text="Submission"
 %}
 
 {%
@@ -35,12 +35,10 @@ title: TIME Medal 2024
   text="Timeline"
 %}
 
-
-
 {%
   include figure.html
   image="images/medal/2024/contenders.png"
-  caption="Contenders for TIME Medal 2024"
+  caption="Contenders for TIME Lab Medal 2024"
   width="800px"
 %}
 
@@ -66,7 +64,7 @@ The winner will gain access to a range of opportunities to enhance their academi
 
 ## Understanding the Process
 
-The selection process for the TIME Medal is designed to be both comprehensive and inclusive, ensuring that all contenders are evaluated fairly across multiple dimensions. Here's an overview of how the selection process works:
+The selection process for the TIME Lab Medal is designed to be both comprehensive and inclusive, ensuring that all contenders are evaluated fairly across multiple dimensions. Here's an overview of how the selection process works:
 
 1. **Submission Phase**: Each contender is required to submit a [personal reflection material](#part-a-personal-reflection-mandatory) and optionally, a [personal showcase material](#part-b-personal-showcase-optional). These highlight their achievements, growth journey, and reflections on their time within TIME Lab, providing a window into their dedication and contributions.
 
@@ -74,11 +72,11 @@ The selection process for the TIME Medal is designed to be both comprehensive an
 
 3. **Award Committee Review**: A dedicated committee, consisting of external stakeholders, reviews all submissions, voting results, and performance data. The committee assesses candidates holistically, focusing on their alignment with the [Medal Criteria Breakdown](#medal-criteria-breakdown).
 
-4. **Deliberation and Decision**: During the final committee meeting, all data, votes, and insights are analyzed, leading to a well-rounded decision. The committee ensures that the selected recipient embodies the essence of the TIME Medal values.
+4. **Deliberation and Decision**: During the final committee meeting, all data, votes, and insights are analyzed, leading to a well-rounded decision. The committee ensures that the selected recipient embodies the essence of the TIME Lab Medal values.
 
-5. **Announcement and Celebration**: The winner is announced, celebrating the achievements of all finalists and formally presenting the TIME Medal to the deserving recipient.
+5. **Announcement and Celebration**: The winner is announced, celebrating the achievements of all finalists and formally presenting the TIME Lab Medal to the deserving recipient.
 
-This holistic process ensures that the TIME Medal honors not only academic and research excellence but also the balance, growth, and contributions that make the contenders outstanding individuals.
+This holistic process ensures that the TIME Lab Medal honors not only academic and research excellence but also the balance, growth, and contributions that make the contenders outstanding individuals.
 
 {%
   include section.html
