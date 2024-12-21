@@ -28,8 +28,8 @@ nav:
 
 {%
   include button.html
-  link="event/#time-medal"
-  text="TIME Medal"
+  link="event/#time-lab-medal"
+  text="Medal"
 %}
 
 {%
@@ -78,13 +78,13 @@ nav:
 
 {% include section.html %}
 
-## TIME Medal
+## TIME Lab Medal
 
-Each year, the TIME Medal celebrates students who embody the core values of excellence, resilience, and meaningful contributions to both the lab and the broader community.
+Each year, the TIME Lab Medal celebrates students who embody the core values of excellence, resilience, and meaningful contributions to both the lab and the broader community.
 
 | **Year**      | **Winner(s)**            | **Candidates**                                                                | **Award Date**       | **More Info**       |
 |---------------|--------------------------|--------------------------------------------------------------------------------|-----------------------|---------------------|
-| TIME Medal 2024 | TBD                     | Qixiang Chen, Liyun Zhu, Huilin Chen, Dexuan Ding, Jushang Qiu, and Liwen Luo | TBD                   | [Details](/medal/2024) |
+| TIME Lab Medal 2024 | TBD                     | Qixiang Chen, Liyun Zhu, Huilin Chen, Dexuan Ding, Jushang Qiu, and Liwen Luo | TBD                   | [Details](/medal/2024) |
 
 
 {% include section.html %}
