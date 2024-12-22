@@ -173,18 +173,16 @@
   status:
     - published
 
-
-##### Preprints #####
-
 # TrackNetV4 Dataset
 - id: doi:10.48550/arXiv.2409.14543
-  date: 2024-09-24
+  date: 2024-12-22
+  publisher: IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
   image: images/paper/arXiv_2409_14543.png
   buttons:
     - type: website
       link: /paper-sites/tracknet-v4
   status:
-    - preprint
+    - published
 
 # MSAD Dataset
 - id: doi:10.48550/arXiv.2402.04857
@@ -196,7 +194,7 @@
       link: /paper-sites/msad
   status:
     - published
-    
+
 # Motion meets Attention
 - id: arXiv:2407.03179
   date: 2024-09-05
@@ -208,13 +206,14 @@
   status:
     - published
 
+##### Preprints #####
+
 # LEGO
 - id: doi:10.48550/arXiv.2410.01506
   image: images/paper/doi_10_48550_arXiv_2410_01506.png
   date: 2024-10-03
   status:
     - preprint
-
 
 # SignLLM
 - id: arxiv:2405.10718
@@ -243,12 +242,6 @@
   title: 3D Skeleton-based Few-shot Action Recognition with JEANIE is not so Naïve
   status:
     - preprint
-
-# Comparing Computer Resource Usage
-- id: doi:10.1109/ICONAT53423.2022.9726079
-  image: images/paper/doi_10_1109_ICONAT53423.2022.9726079.png
-  status:
-    - published
 
 # When Spatial meets Temporal in Action Recognition
 - id: doi:10.48550/arXiv.2411.15284
