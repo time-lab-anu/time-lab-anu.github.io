@@ -90,6 +90,12 @@ Our team comprises ANU honors and master’s students who are both passionate an
 
 {%
   include alert.html
+  type="success"
+  content="21/12/2024: One paper has been accepted at ICASSP 2025. Congratulations to Arjun Raj."
+%}
+
+{%
+  include alert.html
   type="info"
   content="10/12/2024: Starting in 2025, Dr. Lei Wang (lab lead) will not be available to serve as the primary supervisor for any new ANU undergraduate, honors, or master's research students."
 %}
@@ -110,6 +116,12 @@ Our team comprises ANU honors and master’s students who are both passionate an
   include alert.html
   type="success"
   content="21/11/2024: One workshop proposal entitled “TIME 2025: 1st International Workshop on Transformative Insights in Multi-faceted Evaluation” has been accepted at The Web Conference (WWW 2025, A*) as a half-day workshop. Arjun Raj, Qixiang Chen, Xiuyuan (Jack) Yuan, and Xi Ding have been appointed as TIME 2025 Workshop Coordinators."
+%}
+
+{%
+  include alert.html
+  type="info"
+  content="13/11/2024: Welcome Xi Ding to TIME Lab as a Research Assistant working on transparent and interpretable AI."
 %}
 
 {%
