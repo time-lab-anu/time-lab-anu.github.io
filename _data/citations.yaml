@@ -278,15 +278,16 @@
   - Arjun Raj
   - Lei Wang
   - Tom Gedeon
-  publisher: arXiv
-  date: '2024-09-24'
+  publisher: IEEE International Conference on Acoustics, Speech, and Signal Processing
+    (ICASSP)
+  date: '2024-12-22'
   link: https://doi.org/g5pgk6
   image: images/paper/arXiv_2409_14543.png
   buttons:
   - type: website
     link: /paper-sites/tracknet-v4
   status:
-  - preprint
+  - published
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arXiv.2402.04857
@@ -396,20 +397,6 @@
   image: images/paper/arXiv_2112_12668.png
   status:
   - preprint
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/ICONAT53423.2022.9726079
-  title: Comparing Computer Resource Usage Through Interpolating Global Ecosystem
-    Dynamics Investigation Light Detection and Ranging Waveform Data
-  authors:
-  - Arjun Raj
-  - Andrew Charles Baker
-  publisher: 2022 International Conference for Advancement in Technology (ICONAT)
-  date: '2022-01-21'
-  link: https://doi.org/gt7p38
-  image: images/paper/doi_10_1109_ICONAT53423.2022.9726079.png
-  status:
-  - published
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arXiv.2411.15284
