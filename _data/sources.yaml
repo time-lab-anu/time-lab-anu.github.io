@@ -249,3 +249,10 @@
   image: images/paper/doi_10_48550_arxiv_2411_15284.png
   status:
     - preprint
+
+# Do Language Models Understand Time?
+- id: doi:10.48550/arXiv.2412.13845
+  date: 2024-12-18
+  image: images/paper/doi_10_48550_arXiv_2412_13845.png
+  status:
+    - preprint
