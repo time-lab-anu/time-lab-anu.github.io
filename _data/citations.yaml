@@ -415,3 +415,16 @@
   - preprint
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.48550/arXiv.2412.13845
+  title: Do Language Models Understand Time?
+  authors:
+  - Xi Ding
+  - Lei Wang
+  publisher: arXiv
+  date: '2024-12-18'
+  link: https://doi.org/g8wq34
+  image: images/paper/doi_10_48550_arXiv_2412_13845.png
+  status:
+  - preprint
+  plugin: sources.py
+  file: sources.yaml
