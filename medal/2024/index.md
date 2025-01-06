@@ -158,3 +158,27 @@ Candidates need to login into their ANU account to access this form. If the belo
 Good luck to all candidates! We are proud of your journey and excited to see you continue the tradition of excellence.
 
 *Arjun Raj and Xi Ding<br>TIME Lab 2024 Medal Organizers*
+
+## Updates
+
+{% capture personal-showcase-timelab-medal-2024 %}
+###### [6/1/2025] Explore Personal Showcases
+
+See the inspiring personal showcases submitted by the contenders. Their stories highlight exceptional journeys of academic and personal growth.
+
+- Qixiang Chen: [Click here to open PDF](./personal_showcase_qixiang_chen.pdf)
+- Dexuan Ding: [Click here to open PDF](./personal_showcase_dexuan_ding.pdf)
+{% endcapture %}
+
+{%
+  include alert.html
+  type="info"
+  content=personal-showcase-timelab-medal-2024
+%}
+
+{%
+  include alert.html
+  type="info"
+  content="6/1/2025: The submission form is now closed. Thank you to everyone who participated."
+%}
+
