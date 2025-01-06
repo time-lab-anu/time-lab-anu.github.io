@@ -91,6 +91,12 @@ Our team comprises ANU honors and master’s students who are both passionate an
 {%
   include alert.html
   type="success"
+  content="02/01/2025: Major Grants Secured for Advancing Scalable and Efficient Video Models. We’re proud to announce two major grants for our lab: “*MotionNetLite: Video Dynamics Distillation for Scalable Models*” under the NCMAS 2025 and “*Efficient Video Models through Compression and Data Optimization*” under the ANUMAS 2025. Both projects are led by our Lab Lead, Dr. Wang, and aim to drive innovation in scalable and efficient video processing."
+%}
+
+{%
+  include alert.html
+  type="success"
   content="21/12/2024: One paper has been accepted at ICASSP 2025. Congratulations to Arjun Raj."
 %}
 
