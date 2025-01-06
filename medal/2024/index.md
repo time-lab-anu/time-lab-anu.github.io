@@ -161,6 +161,12 @@ Good luck to all candidates! We are proud of your journey and excited to see you
 
 ## Updates
 
+{%
+  include alert.html
+  type="info"
+  content="6/1/2024: Peer voting stage has begun. Eligible members can cast their vote using the following link: https://forms.microsoft.com/r/e2pDD9QjzK ."
+%}
+
 {% capture personal-showcase-timelab-medal-2024 %}
 ###### [6/1/2025] Explore Personal Showcases
 
@@ -179,6 +185,6 @@ See the inspiring personal showcases submitted by the contenders. Their stories 
 {%
   include alert.html
   type="info"
-  content="6/1/2025: The submission form is now closed. Thank you to everyone who participated."
+  content="5/1/2025: The submission form is now closed. Thank you to everyone who participated."
 %}
 
