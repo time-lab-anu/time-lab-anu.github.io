@@ -91,6 +91,18 @@ Our team comprises ANU honors and master’s students who are both passionate an
 {%
   include alert.html
   type="success"
+  content="23/01/2025: The TIME Lab, composed of honors and master’s students, achieved significant milestones under Dr. Wang's primary supervision, including three top-tier publications (NeurIPS’24, ICLR’25, ICML’24), an oral presentation at ACML’24 (a respected ML conference in Asia-Pacific), and a paper at ICASSP’25 (a prestigious signal processing venue) from November 20, 2023, to October 25, 2024."
+%}
+
+{%
+  include alert.html
+  type="success"
+  content="23/01/2025: One paper has been accepted at ICLR 2025. Congratulations to Dexuan Ding."
+%}
+
+{%
+  include alert.html
+  type="success"
   content="02/01/2025: Major Grants Secured for Advancing Scalable and Efficient Video Models. We’re proud to announce two major grants for our lab: “*MotionNetLite: Video Dynamics Distillation for Scalable Models*” under the NCMAS 2025 and “*Efficient Video Models through Compression and Data Optimization*” under the ANUMAS 2025. Both projects are led by our Lab Lead, Dr. Wang, and aim to drive innovation in scalable and efficient video processing."
 %}
 
