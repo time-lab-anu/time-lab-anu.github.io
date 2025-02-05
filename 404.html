@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME Lab Has Moved</title>
+    <link rel="icon" type="image/gif" href="images/logo.gif">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 50px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .logo-container {
+            position: relative;
+            width: 600px;
+            height: 150px;
+            margin: 50px auto;
+        }
+        :root {
+            --start-x: 0;
+            --start-y: 0;
+            --peak-x: 250px;
+            --peak-y: -80px;
+            --end-x: 500px;
+            --end-y: 0;
+        }
+        .logo {
+            width: 120px;
+            height: auto;
+            position: absolute;
+        }
+        .arrow {
+            bottom: -35px;
+            transform: translateY(75px);
+        }
+        .anu-logo-text {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #555;
+            text-align: center;
+            position: absolute;
+            bottom: -35px;  /* Adjust this value based on your preference */
+            /* left: 50%; */
+            transform: translateX(-10%);
+        }
+        .griffith-logo-text {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #555;
+            text-align: center;
+            position: absolute;
+            bottom: -35px;  /* Adjust this value based on your preference */
+            left: var(--end-x);
+            transform: translateX(-28%);
+        }
+
+        #anu-logo {
+            left: 0;
+            bottom: 0;
+            size: 110%;
+        }
+        #griffith-logo {
+            right: 0;
+            bottom: 0;
+        }
+        #time-lab-logo {
+            left: 10px;
+            bottom: 0;
+            z-index: 2;
+            animation: moveArch 5s forwards ease-in-out;
+            width: 80px;
+        }
+        .progress-container {
+            width: 50%;
+            background-color: #ddd;
+            margin: 20px auto;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .progress-bar {
+            width: 0;
+            height: 20px;
+            background-color: lightblue;
+            transition: width 5s linear;
+        }
+
+        @keyframes moveArch {
+            0%   { transform: translateX(var(--start-x)) translateY(var(--start-y)); }
+            50%  { transform: translateX(var(--peak-x)) translateY(var(--peak-y)); }
+            100% { transform: translateX(var(--end-x)) translateY(var(--end-y)); }
+        }
+    </style>
+    <script>
+        (function() {
+            var newDomain = "https://www.time.griffith.edu.au";
+            var currentUrl = window.location.href;
+            var currentPath = window.location.pathname + window.location.search + window.location.hash;
+            var redirectUrl = newDomain + currentPath;
+    
+            document.addEventListener("DOMContentLoaded", function() {
+                document.getElementById("current-url").href = currentUrl;
+                document.getElementById("current-url").textContent = currentUrl;
+                document.getElementById("redirect-url").textContent = redirectUrl;
+                document.getElementById("redirect-url").href = redirectUrl;
+                document.getElementById("redirect-url-2").href = redirectUrl;
+
+                var progressBar = document.querySelector(".progress-bar");
+                progressBar.style.width = "0%";
+    
+                setTimeout(function() {
+                    progressBar.style.width = "100%";
+                }, 50);
+    
+                setTimeout(function() {
+                    // window.location.href = newDomain + currentPath;
+                }, 5000); // Redirect after 5 seconds
+            });
+        })();
+    </script>
+</head>
+<body>
+    <h1>TIME Lab Has Moved!</h1>
+    <p>We have relocated from the Australian National University (ANU) to Griffith University.</p>
+
+    <div class="logo-container">
+        <img id="anu-logo" class="logo" src="https://upload.wikimedia.org/wikipedia/en/5/5f/Australian_National_University_coat_of_arms.svg" alt="ANU Logo">
+        <div class="anu-logo-text">time.<strong>anu</strong>.edu.au</div>
+    
+        <img class="arrow" id="arrow" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Arrow_right.svg" alt="Arrow">
+        
+        <img id="time-lab-logo" class="logo" src="images/logo.gif" alt="TIME Lab Logo">
+
+        <img id="griffith-logo" class="logo" src="https://upload.wikimedia.org/wikipedia/en/a/a9/Griffith_University_Logo_Variant_2022.svg" alt="Griffith Logo">
+        <div class="griffith-logo-text">time.<strong>griffith</strong>.edu.au</div>
+    </div>
+    
+
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+    
+    <div style="margin-top: 80px;">
+        <p><strong>Current URL:</strong> <a id="current-url"></a></p>
+        <p><strong>Redirecting to:</strong> <a id="redirect-url"></a></p>
+        <p>If you are not redirected, <a id="redirect-url-2">click here</a>.</p>
+    </div>
+</body>
+</html>
